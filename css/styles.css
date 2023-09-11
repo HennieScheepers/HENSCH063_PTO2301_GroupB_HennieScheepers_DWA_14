@@ -1,0 +1,53 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#button--container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+  margin: 50px;
+}
+
+#increment--button {
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "monospace";
+  color: white;
+  font-size: 100px;
+  width: 180px;
+  height: 180px;
+  background-color: rgb(168, 255, 173);
+  box-shadow: 2px 2px 5px gray;
+}
+
+button {
+  width: 100%;
+}
+
+#decrement--button {
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "monospace";
+  color: white;
+  font-size: 100px;
+  width: 180px;
+  height: 180px;
+  background-color: rgb(255, 168, 168);
+  box-shadow: 2px 2px 5px gray;
+}
+
+#tracker {
+  font-size: 100px;
+  font-family: monospace;
+  text-shadow: 2px 2px 5px gray;
+}
